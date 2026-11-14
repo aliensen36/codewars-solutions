@@ -2,7 +2,6 @@
 
 - **Ссылка:** https://www.codewars.com/kata/never-visit-a
 - **Сложность:** 8 kyu (по факту сложнее — 6–7 kyu)
-- **Дата решения:** 2026-11-02
 - **Темы:** puzzles, strings, number theory, mathematics
 
 ## Условие
