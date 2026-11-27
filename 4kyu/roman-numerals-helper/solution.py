@@ -23,7 +23,10 @@ class RomanNumerals:
         total = 0
         i = 0
         while i < len(roman_num):
-            if roman_num[i] in roman_map:
+            if i + 1 < len(roman_num) and roman_num[i:i + 2] in roman_map:
+                total += roman_map[roman_num[i:i + 2]]
+                i += 2
+            else:
                 total += roman_map[roman_num[i]]
                 i += 1
         return total
